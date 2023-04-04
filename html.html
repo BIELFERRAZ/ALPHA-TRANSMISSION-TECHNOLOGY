@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>ALPHA TRANSMISSION TECHNOLOGY</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	
+
+
+
+    
+	<div class="container">
+
+
+
+
+
+
+        
+		<div class="container-login">
+			<div class="wrap-login">
+
+
+                
+				<form class="login-form">
+
+
+                    
+					<span class="login-form-title">
+						Login dos Professores
+					</span>
+
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="Usuário" autocomplete="off">
+						<span class="focus-input-form" data-placeholder="Usuário"></span>
+					</div>
+
+					<div class="wrap-input margin-bottom-35">
+						<input class="input-form" type="password" name="password">
+						<span class="focus-input-form" data-placeholder="Senha do Professor"></span>
+					</div>
+
+					<div class="container-login-form-btn">
+						<button class="login-form-btn">
+								ENTRAR
+						</button>
+					</div>
+
+                
+                <div id="content" >
+                    <div id="frmEstadoCidades" class="curso" >
+                        <div class="item-select">
+                            <label for="estado" id="lblEstado">Curso </label>
+                            <select id="estado">                                                                                                                       
+                                <option value="informática">informática</option>
+                                <option value="Administração">Administração</option>
+                                <option value="Turismo">Turismo</option>
+                                <option value="Edificações">Edificações</option>
+                            </select>
+
+                        </div>
+                        <div class="item-select">
+                            <label for="cidade" id="lblCidade">modulo: </label>
+                            <select id="cidade">
+                                <option value="">Modulo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="saida"></div>
+
+
+                </div>
+                <script src="js.js"></script>
+
+					<ul class="login-utils">
+						<li class="margin-bottom-8 margin-top-8">
+						
+
+
+
+							
+						</li>
+
+						
+
+							
+						</li>
+					</ul>
+				</form>
+			</div>
+			<img src="giphy.gif" width="350" height="300" class="margin-left-100" />
+		</div>
+	</div>
+	
+	<script>
+		let inputs = document.getElementsByClassName('input-form');
+		for (let input of inputs) {
+			input.addEventListener("blur", function() {
+				if(input.value.trim() != ""){
+					input.classList.add("has-val");
+				} else {
+					input.classList.remove("has-val");
+				}
+			});
+		}
+	</script>
+
+</body>
+</html>
