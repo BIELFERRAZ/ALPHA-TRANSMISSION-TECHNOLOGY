@@ -1,17 +1,19 @@
+
+
 @font-face {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     src: url();
 }
 
 :root {
-    --main-color: #0246ff;
-    --link-color:  #0246ff;
-    --text1: #2e2a2a;
-    --highligth-text: #271c1c;
-    --input-text: #161618;
+    --main-color: #2c39ec;
+    --link-color:  #ffffff;
+    --text1: #ffffff;
+    --highligth-text: #ffffff;
+    --input-text: #ffffff;
     --white-color: #ffffff;
     --point-list: #ffffff;
-    --line-input: #1b1a1d;
+    --line-input: #ffffff;
   }
    
   
@@ -96,13 +98,13 @@
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: var(--white-color);  
+    
   }
   
   .wrap-login {
     width: 370px;
     margin-right: 50px;
-    background: var(--white-color);
+    
   }
   
   /*
@@ -306,3 +308,6 @@
   }
 
   
+.container{
+  background-image: url(imagem/MicrosoftTeams-image.png);
+}
