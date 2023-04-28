@@ -6,14 +6,14 @@
 }
 
 :root {
-    --main-color: #2c39ec;
-    --link-color:  #ffffff;
-    --text1: #ffffff;
-    --highligth-text: #ffffff;
-    --input-text: #ffffff;
-    --white-color: #017fe6;
-    --point-list: #ffffff;
-    --line-input: #ffffff;
+    --main-color:  #0011ff;
+    --link-color:   #000000;
+    --text1:  #000000;
+    --highligth-text:  #000000;
+    --input-text:  #000000;
+    --white-color:  #ffffff;
+    --point-list:  #000a96;
+    --line-input:  #0300aa;
   }
    
   
@@ -308,7 +308,3 @@
     align-content: center;
   }
 
-  
-.container{
-  background-image: url(imagem/MicrosoftTeams-image.png);
-}
