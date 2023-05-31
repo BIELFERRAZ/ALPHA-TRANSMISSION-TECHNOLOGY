@@ -1,6 +1,6 @@
 const estados = [
     {
-    uf: "informática", cidades: [
+    uf: "Informática", cidades: [
         {id: 1, nome: "1I3"}
        ,{id: 2, nome: "2I3"}
        ,{id: 3, nome: "3I3"}
